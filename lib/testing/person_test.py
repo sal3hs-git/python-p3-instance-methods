@@ -47,3 +47,4 @@ class TestWalk:
         guido.walk()
         sys.stdout = sys.__stdout__
         assert(captured_out.getvalue() == "The person is walking.\n")
+from lib.person import Person

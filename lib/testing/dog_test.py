@@ -47,3 +47,4 @@ class TestSit:
         fido.sit()
         sys.stdout = sys.__stdout__
         assert(captured_out.getvalue() == "The dog is sitting.\n")
+from lib.dog import Dog
